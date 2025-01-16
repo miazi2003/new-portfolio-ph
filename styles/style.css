@@ -457,6 +457,7 @@ form button:hover {
 
   footer{
     flex-direction: column;
+    padding: 30px 20px;
     gap: 50px;
   }
   .s-link{
@@ -470,5 +471,9 @@ form button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  form input , textarea{
+    width: 100%;
+
   }
 }
