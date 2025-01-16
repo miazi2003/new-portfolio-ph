@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   gap: 50px;
   background-color: #f5f3f3;
+  margin: 0 auto;
 }
 header {
   background: rgb(255, 248, 243);
