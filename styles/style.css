@@ -83,6 +83,7 @@ nav h2 span {
   font-weight: bold;
   color: rgb(253, 110, 10);
 }
+/* banner css */
 
 .banner {
   height: 500px;
@@ -152,6 +153,7 @@ nav h2 span {
   width: 50%;
   display: flex;
   align-items: center;
+
 }
 
 .my-img img {
@@ -416,6 +418,84 @@ form button:hover {
   .hide{
     display: none;
   }
+
+
+  header{
+    gap: 0;
+    background:none;
+  }
+  nav{
+    padding: 10px 10px;
+  }
+  nav ul li {
+    padding: 0;
+  }
+  nav h2 {
+    font-size: 20px;
+  }
+  nav h2 span{
+    font-size: 20px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+
+  nav div button{
+    padding: 10px 20px;
+  }
+
+.banner{
+  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.banner .info-text {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+
+.banner .info-text h2 {
+  color: rgb(71, 71, 71);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.banner .info-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.banner .info-text p {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(71, 71, 71);
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+.banner .info-text div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.my-img{
+  background-image:
+    url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: bottom;
+}
+
   .main{
     padding: 0;
   }
@@ -446,6 +526,24 @@ form button:hover {
   .skill {
     text-align: center;
   }
+
+  .resume h1 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px 20px;
+  }
+
+  .ex-col h3,
+.edu-col h3 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+
+
   .resume-container{
     flex-direction: column;
     text-align: center;
